@@ -1,0 +1,2 @@
+[info] metodos=['best_avg', 'metalearn', 'ws_t5', 'ws_t15', 'ws_t30', 'AG_main_60', 'AG_main_240', 'AG_main_900', 'AG_nometa_240', 'AG_emb_240']; N comum=50
+[done] escrito em ./results_automl/analysis

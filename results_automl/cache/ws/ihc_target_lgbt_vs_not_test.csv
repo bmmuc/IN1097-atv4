@@ -1,0 +1,4 @@
+dataset_id,t,incumbent_config,inner_loss,f1_test,cum_search_s,cum_eval_s,cum_gp_s,refit_s,nn_ids,nn1_dist
+ihc_target_lgbt_vs_not,5,11,0.09004076118170075,0.9550264550264551,26.919262042000355,26.919262042000355,0.0,12.466801175,ethos_category_gender_vs_rest;ethos_category_religion_vs_rest;ethos_category_race_vs_rest,23.477775162498467
+ihc_target_lgbt_vs_not,15,11,0.09004076118170075,0.9550264550264551,55.953502482000204,55.156383153000206,0.7971193289999974,9.040250249999644,ethos_category_gender_vs_rest;ethos_category_religion_vs_rest;ethos_category_race_vs_rest,23.477775162498467
+ihc_target_lgbt_vs_not,30,11,0.09004076118170075,0.9550264550264551,68.31220839299976,66.32043992499985,1.9917684679999184,7.680589395999959,ethos_category_gender_vs_rest;ethos_category_religion_vs_rest;ethos_category_race_vs_rest,23.477775162498467

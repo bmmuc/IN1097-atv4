@@ -1,0 +1,4 @@
+dataset_id,t,incumbent_config,inner_loss,f1_test,cum_search_s,cum_eval_s,cum_gp_s,refit_s,nn_ids,nn1_dist
+ihc_stg2_stereotypical_vs_rest,5,98,0.2741303312388514,0.7098646034816247,62.814855926999996,62.814855926999996,0.0,2.9235217899999952,ihc_stg2_incitement_vs_rest;ihc_stg2_inferiority_vs_rest;ihc_stg2_irony_vs_rest,5.726068638792359
+ihc_stg2_stereotypical_vs_rest,15,38,0.27072155441431883,0.704724409448819,375.919921089,374.59397987899996,1.3259412100000247,11.283043094999982,ihc_stg2_incitement_vs_rest;ihc_stg2_inferiority_vs_rest;ihc_stg2_irony_vs_rest,5.726068638792359
+ihc_stg2_stereotypical_vs_rest,30,38,0.27072155441431883,0.704724409448819,694.4812532259998,691.5694692049999,2.9117840209999315,10.22846416699997,ihc_stg2_incitement_vs_rest;ihc_stg2_inferiority_vs_rest;ihc_stg2_irony_vs_rest,5.726068638792359

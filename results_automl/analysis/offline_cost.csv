@@ -1,0 +1,6 @@
+item,segundos,nota
+"P (CV macro-F1 50x10), wall",6697.2,log nao informa n de cores
+"P, limite superior CPU-equiv (x12)",80366.4,assume build com n_cores workers
+X base (grupos base_* de extraction_cost.csv),360.96801641800994,soma 50 datasets
+"X (todos os grupos, extendido)",2489.8066168639925,nao usado no break-even
+matriz de perdas HPO (CPU-s),227661.9737520218,soma build_cost.csv

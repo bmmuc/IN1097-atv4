@@ -1,0 +1,230 @@
+{
+ "dataset_id": "ethos_category_gender_vs_rest",
+ "variant": "emb",
+ "budget": 240,
+ "num_cpus": 4,
+ "n_train": 346,
+ "n_test": 87,
+ "f1_test": 0.8182336182336183,
+ "fit_wall_s": 249.47707381200053,
+ "predict_wall_s": 0.8054159990006156,
+ "total_wall_s": 279.0803742469998,
+ "best_model": "WeightedEnsemble_L2",
+ "leaderboard": [
+  {
+   "model": "NeuralNetFastAI_BAG_L1",
+   "score_val": 0.883592132505176,
+   "fit_time": 12.66546630859375,
+   "pred_time_val": 0.13360357284545898,
+   "stack_level": 1,
+   "can_infer": true
+  },
+  {
+   "model": "WeightedEnsemble_L3",
+   "score_val": 0.883592132505176,
+   "fit_time": 13.405578851699829,
+   "pred_time_val": 0.1376340389251709,
+   "stack_level": 3,
+   "can_infer": true
+  },
+  {
+   "model": "WeightedEnsemble_L2",
+   "score_val": 0.883592132505176,
+   "fit_time": 13.353208065032959,
+   "pred_time_val": 0.13826894760131836,
+   "stack_level": 2,
+   "can_infer": true
+  },
+  {
+   "model": "LightGBM_BAG_L2",
+   "score_val": 0.8753878546099291,
+   "fit_time": 89.66407632827759,
+   "pred_time_val": 0.6812479496002197,
+   "stack_level": 2,
+   "can_infer": true
+  },
+  {
+   "model": "LightGBMXT_BAG_L2",
+   "score_val": 0.8722739663789186,
+   "fit_time": 85.05254411697388,
+   "pred_time_val": 0.6696734428405762,
+   "stack_level": 2,
+   "can_infer": true
+  },
+  {
+   "model": "CatBoost_BAG_L2",
+   "score_val": 0.8466312056737588,
+   "fit_time": 86.32832145690918,
+   "pred_time_val": 1.087113618850708,
+   "stack_level": 2,
+   "can_infer": true
+  },
+  {
+   "model": "LightGBMXT_BAG_L1",
+   "score_val": 0.8405648457822371,
+   "fit_time": 7.510274410247803,
+   "pred_time_val": 0.04164290428161621,
+   "stack_level": 1,
+   "can_infer": true
+  },
+  {
+   "model": "RandomForestEntr_BAG_L2",
+   "score_val": 0.8325487262968014,
+   "fit_time": 76.57985663414001,
+   "pred_time_val": 0.6756370067596436,
+   "stack_level": 2,
+   "can_infer": true
+  },
+  {
+   "model": "RandomForestGini_BAG_L2",
+   "score_val": 0.8325487262968014,
+   "fit_time": 76.60111451148987,
+   "pred_time_val": 0.7028307914733887,
+   "stack_level": 2,
+   "can_infer": true
+  },
+  {
+   "model": "LightGBM_BAG_L1",
+   "score_val": 0.8254848915585309,
+   "fit_time": 7.320958614349365,
+   "pred_time_val": 0.03695273399353027,
+   "stack_level": 1,
+   "can_infer": true
+  },
+  {
+   "model": "ExtraTreesGini_BAG_L2",
+   "score_val": 0.810963394645784,
+   "fit_time": 76.4177360534668,
+   "pred_time_val": 0.6787171363830566,
+   "stack_level": 2,
+   "can_infer": true
+  },
+  {
+   "model": "ExtraTreesEntr_BAG_L2",
+   "score_val": 0.7975985221674877,
+   "fit_time": 76.28972434997559,
+   "pred_time_val": 0.6859359741210938,
+   "stack_level": 2,
+   "can_infer": true
+  },
+  {
+   "model": "XGBoost_BAG_L1",
+   "score_val": 0.7946266791627616,
+   "fit_time": 14.404930114746094,
+   "pred_time_val": 0.052951812744140625,
+   "stack_level": 1,
+   "can_infer": true
+  },
+  {
+   "model": "CatBoost_BAG_L1",
+   "score_val": 0.7698385657499798,
+   "fit_time": 38.61635065078735,
+   "pred_time_val": 0.1241750717163086,
+   "stack_level": 1,
+   "can_infer": true
+  },
+  {
+   "model": "RandomForestGini_BAG_L1",
+   "score_val": 0.7168576104746318,
+   "fit_time": 1.1223480701446533,
+   "pred_time_val": 0.11602330207824707,
+   "stack_level": 1,
+   "can_infer": true
+  },
+  {
+   "model": "RandomForestEntr_BAG_L1",
+   "score_val": 0.7132680948602663,
+   "fit_time": 1.0470609664916992,
+   "pred_time_val": 0.10561680793762207,
+   "stack_level": 1,
+   "can_infer": true
+  },
+  {
+   "model": "ExtraTreesEntr_BAG_L1",
+   "score_val": 0.6579901153212521,
+   "fit_time": 1.0792458057403564,
+   "pred_time_val": 0.1125040054321289,
+   "stack_level": 1,
+   "can_infer": true
+  },
+  {
+   "model": "ExtraTreesGini_BAG_L1",
+   "score_val": 0.6477130325814536,
+   "fit_time": 1.0447843074798584,
+   "pred_time_val": 0.09926795959472656,
+   "stack_level": 1,
+   "can_infer": true
+  }
+ ],
+ "model_types": {
+  "LightGBMXT_BAG_L1": "StackerEnsembleModel",
+  "LightGBM_BAG_L1": "StackerEnsembleModel",
+  "RandomForestGini_BAG_L1": "StackerEnsembleModel",
+  "RandomForestEntr_BAG_L1": "StackerEnsembleModel",
+  "CatBoost_BAG_L1": "StackerEnsembleModel",
+  "ExtraTreesGini_BAG_L1": "StackerEnsembleModel",
+  "ExtraTreesEntr_BAG_L1": "StackerEnsembleModel",
+  "NeuralNetFastAI_BAG_L1": "StackerEnsembleModel",
+  "XGBoost_BAG_L1": "StackerEnsembleModel",
+  "WeightedEnsemble_L2": "WeightedEnsembleModel",
+  "LightGBMXT_BAG_L2": "StackerEnsembleModel",
+  "LightGBM_BAG_L2": "StackerEnsembleModel",
+  "RandomForestGini_BAG_L2": "StackerEnsembleModel",
+  "RandomForestEntr_BAG_L2": "StackerEnsembleModel",
+  "CatBoost_BAG_L2": "StackerEnsembleModel",
+  "ExtraTreesGini_BAG_L2": "StackerEnsembleModel",
+  "ExtraTreesEntr_BAG_L2": "StackerEnsembleModel",
+  "WeightedEnsemble_L3": "WeightedEnsembleModel"
+ },
+ "n_models": 18,
+ "n_stack_levels": 3,
+ "ensemble": {
+  "best_is_weighted_ensemble": true,
+  "best_model_type": "WeightedEnsembleModel",
+  "best_stack_level": null,
+  "weights": {
+   "NeuralNetFastAI_BAG_L1": 1.0
+  },
+  "base_models": [
+   "NeuralNetFastAI_BAG_L1"
+  ],
+  "base_model_types": {
+   "NeuralNetFastAI_BAG_L1": "StackerEnsembleModel"
+  },
+  "bagged_info": {}
+ },
+ "features": {
+  "n_features_out": 423,
+  "by_group": {
+   "embedding_numeric": 382,
+   "text_special": 16,
+   "text_ngram": 25
+  },
+  "out_raw_types": {
+   "float": 381,
+   "int": 42
+  },
+  "out_special_types": {
+   "text_ngram": 25,
+   "text_special": 16,
+   "binned": 16
+  },
+  "feature_metadata_in": {
+   "raw_types": {
+    "object": 1,
+    "float": 382
+   },
+   "text_features": [
+    "text"
+   ]
+  }
+ },
+ "dynamic_stacking": {
+  "dystack_ran": true,
+  "stacked_overfitting_occurred": "False",
+  "n_dystack_subfits": 0,
+  "num_stack_levels_run": 3,
+  "any_stack_level_ge2": true
+ },
+ "ag_version": null
+}

@@ -1,0 +1,69 @@
+== AG main 60s (N=50, k=4) ==
+Friedman chi2=33.415 p=2.633e-07
+CD(Nemenyi, 0.05)=0.663
+ranks medios (1=melhor):
+ws_t30        2.00
+metalearn     2.17
+best_avg      2.51
+AG_main_60    3.32
+pares significativos: [('Melhor media', 'AG main 60s', 0.81), ('Meta-learning', 'AG main 60s', 1.15), ('ML+WS (T=30)', 'AG main 60s', 1.32)]
+
+== AG main 240s (N=50, k=4) ==
+Friedman chi2=34.296 p=1.716e-07
+CD(Nemenyi, 0.05)=0.663
+ranks medios (1=melhor):
+ws_t30         2.02
+metalearn      2.15
+best_avg       2.49
+AG_main_240    3.34
+pares significativos: [('Melhor media', 'AG main 240s', 0.85), ('Meta-learning', 'AG main 240s', 1.19), ('ML+WS (T=30)', 'AG main 240s', 1.32)]
+
+== AG main 900s (N=50, k=4) ==
+Friedman chi2=31.730 p=5.966e-07
+CD(Nemenyi, 0.05)=0.663
+ranks medios (1=melhor):
+ws_t30         2.02
+metalearn      2.17
+best_avg       2.51
+AG_main_900    3.30
+pares significativos: [('Melhor media', 'AG main 900s', 0.79), ('Meta-learning', 'AG main 900s', 1.13), ('ML+WS (T=30)', 'AG main 900s', 1.28)]
+
+== AG+MiniLM 240s (N=50, k=4) ==
+Friedman chi2=29.922 p=1.433e-06
+CD(Nemenyi, 0.05)=0.663
+ranks medios (1=melhor):
+AG_emb_240    1.72
+ws_t30        2.58
+metalearn     2.68
+best_avg      3.02
+pares significativos: [('Melhor media', 'AG+MiniLM 240s', 1.3), ('Meta-learning', 'AG+MiniLM 240s', 0.96), ('ML+WS (T=30)', 'AG+MiniLM 240s', 0.86)]
+
+== todos os metodos (sem oracle) (N=50, k=10) ==
+Friedman chi2=138.350 p=2.259e-25
+CD(Nemenyi, 0.05)=1.916
+ranks medios (1=melhor):
+AG_emb_240       2.66
+ws_t5            4.16
+metalearn        4.50
+ws_t15           4.59
+ws_t30           4.62
+best_avg         5.46
+AG_main_900      7.04
+AG_main_60       7.26
+AG_nometa_240    7.34
+AG_main_240      7.37
+pares significativos: [('Melhor media', 'AG+MiniLM 240s', 2.8), ('Meta-learning', 'AG main 60s', 2.76), ('Meta-learning', 'AG main 240s', 2.87), ('Meta-learning', 'AG main 900s', 2.54), ('Meta-learning', 'AG nometa 240s', 2.84), ('ML+WS (T=5)', 'AG main 60s', 3.1), ('ML+WS (T=5)', 'AG main 240s', 3.21), ('ML+WS (T=5)', 'AG main 900s', 2.88), ('ML+WS (T=5)', 'AG nometa 240s', 3.18), ('ML+WS (T=15)', 'AG main 60s', 2.67), ('ML+WS (T=15)', 'AG main 240s', 2.78), ('ML+WS (T=15)', 'AG main 900s', 2.45), ('ML+WS (T=15)', 'AG nometa 240s', 2.75), ('ML+WS (T=15)', 'AG+MiniLM 240s', 1.93), ('ML+WS (T=30)', 'AG main 60s', 2.64), ('ML+WS (T=30)', 'AG main 240s', 2.75), ('ML+WS (T=30)', 'AG main 900s', 2.42), ('ML+WS (T=30)', 'AG nometa 240s', 2.72), ('ML+WS (T=30)', 'AG+MiniLM 240s', 1.96), ('AG main 60s', 'AG+MiniLM 240s', 4.6), ('AG main 240s', 'AG+MiniLM 240s', 4.71), ('AG main 900s', 'AG+MiniLM 240s', 4.38), ('AG nometa 240s', 'AG+MiniLM 240s', 4.68)]
+
+cobertura (datasets por metodo):
+               n_datasets  n_error
+best_avg               50      NaN
+metalearn              50      NaN
+ws_t5                  50      NaN
+ws_t15                 50      NaN
+ws_t30                 50      NaN
+AG_main_60             50      0.0
+AG_main_240            50      0.0
+AG_main_900            50      0.0
+AG_nometa_240          50      0.0
+AG_emb_240             50      0.0
+oracle                 50      NaN

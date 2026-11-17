@@ -1,0 +1,21 @@
+\begin{table}[htbp]
+\centering
+\caption{Número de novos datasets para amortizar o custo offline.}
+\label{tab:automl-breakeven}
+\begin{tabular}{lrrrrr}
+\toprule
+Meta-aprendizado & AutoGluon & Custo ML (núcleo-s) & Custo AG (núcleo-s) & N break-even (baixo) & N break-even (alto) \\
+\midrule
+Meta-learning & AG main 60s & 116.8 & 296.7 & 39.2 & 448.7 \\
+Meta-learning & AG main 240s & 116.8 & 1117.0 & 7.1 & 80.7 \\
+Meta-learning & AG main 900s & 116.8 & 3438.0 & 2.1 & 24.3 \\
+Meta-learning & AG nometa 240s & 116.8 & 866.8 & 9.4 & 107.6 \\
+Meta-learning & AG+MiniLM 240s & 116.8 & 1198.8 & 6.5 & 74.6 \\
+ML+WS (T=30) & AG main 60s & 597.0 & 296.7 & -- & -- \\
+ML+WS (T=30) & AG main 240s & 597.0 & 1117.0 & 451.4 & 593.0 \\
+ML+WS (T=30) & AG main 900s & 597.0 & 3438.0 & 82.6 & 108.6 \\
+ML+WS (T=30) & AG nometa 240s & 597.0 & 866.8 & 869.9 & 1143.0 \\
+ML+WS (T=30) & AG+MiniLM 240s & 597.0 & 1198.8 & 390.0 & 512.4 \\
+\bottomrule
+\end{tabular}
+\end{table}

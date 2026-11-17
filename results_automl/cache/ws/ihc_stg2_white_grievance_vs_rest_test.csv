@@ -1,0 +1,4 @@
+dataset_id,t,incumbent_config,inner_loss,f1_test,cum_search_s,cum_eval_s,cum_gp_s,refit_s,nn_ids,nn1_dist
+ihc_stg2_white_grievance_vs_rest,5,58,0.24536748274459574,0.7385268762677485,61.288528628999984,61.288528628999984,0.0,6.04767956500001,ihc_stg2_incitement_vs_rest;ihc_target_black_vs_not;ihc_stg2_stereotypical_vs_rest,7.311565034678711
+ihc_stg2_white_grievance_vs_rest,15,123,0.2422789869917266,0.7687296541248936,286.87909198799997,286.05850803,0.8205839579999861,16.549960697000017,ihc_stg2_incitement_vs_rest;ihc_target_black_vs_not;ihc_stg2_stereotypical_vs_rest,7.311565034678711
+ihc_stg2_white_grievance_vs_rest,30,123,0.2422789869917266,0.7687296541248936,658.5243728890003,656.1219976240002,2.4023752650001597,13.017872541999964,ihc_stg2_incitement_vs_rest;ihc_target_black_vs_not;ihc_stg2_stereotypical_vs_rest,7.311565034678711

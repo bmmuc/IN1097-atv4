@@ -1,0 +1,4 @@
+dataset_id,t,incumbent_config,inner_loss,f1_test,cum_search_s,cum_eval_s,cum_gp_s,refit_s,nn_ids,nn1_dist
+ethos_binary,5,54,0.26774145055688553,0.7592151438305285,110.15073483200001,110.15073483200001,0.0,5.7500897529999975,ethos_category_national_origin_vs_rest;ethos_category_gender_vs_rest;ethos_category_race_vs_rest,19.92886810086581
+ethos_binary,15,54,0.26774145055688553,0.7592151438305285,208.54843371599952,207.0845075499999,1.4639261659996237,4.8799558380001145,ethos_category_national_origin_vs_rest;ethos_category_gender_vs_rest;ethos_category_race_vs_rest,19.92886810086581
+ethos_binary,30,58,0.26599548555127883,0.7905973084093056,341.52849034899907,334.9977383539999,6.53075199499915,2.5954706960001204,ethos_category_national_origin_vs_rest;ethos_category_gender_vs_rest;ethos_category_race_vs_rest,19.92886810086581

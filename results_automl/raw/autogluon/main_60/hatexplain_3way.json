@@ -1,0 +1,113 @@
+{
+ "dataset_id": "hatexplain_3way",
+ "variant": "main",
+ "budget": 60,
+ "num_cpus": 4,
+ "n_train": 2400,
+ "n_test": 600,
+ "f1_test": 0.5567667892576899,
+ "fit_wall_s": 64.81113801399988,
+ "predict_wall_s": 0.9556346660001509,
+ "total_wall_s": 70.90027959100007,
+ "best_model": "WeightedEnsemble_L3",
+ "leaderboard": [
+  {
+   "model": "WeightedEnsemble_L3",
+   "score_val": 0.6035668835300686,
+   "fit_time": 20.847996711730957,
+   "pred_time_val": 0.37951016426086426,
+   "stack_level": 3,
+   "can_infer": true
+  },
+  {
+   "model": "LightGBMXT_BAG_L1",
+   "score_val": 0.6025121523988773,
+   "fit_time": 2.8701999187469482,
+   "pred_time_val": 0.1088869571685791,
+   "stack_level": 1,
+   "can_infer": true
+  },
+  {
+   "model": "WeightedEnsemble_L2",
+   "score_val": 0.6025121523988773,
+   "fit_time": 3.107508659362793,
+   "pred_time_val": 0.11365985870361328,
+   "stack_level": 2,
+   "can_infer": true
+  },
+  {
+   "model": "NeuralNetFastAI_BAG_L2",
+   "score_val": 0.602028062728886,
+   "fit_time": 20.51125955581665,
+   "pred_time_val": 0.37507009506225586,
+   "stack_level": 2,
+   "can_infer": true
+  },
+  {
+   "model": "NeuralNetFastAI_BAG_L1",
+   "score_val": 0.4277479296190278,
+   "fit_time": 12.238420486450195,
+   "pred_time_val": 0.1820993423461914,
+   "stack_level": 1,
+   "can_infer": true
+  }
+ ],
+ "model_types": {
+  "NeuralNetFastAI_BAG_L1": "StackerEnsembleModel",
+  "LightGBMXT_BAG_L1": "StackerEnsembleModel",
+  "WeightedEnsemble_L2": "WeightedEnsembleModel",
+  "NeuralNetFastAI_BAG_L2": "StackerEnsembleModel",
+  "WeightedEnsemble_L3": "WeightedEnsembleModel"
+ },
+ "n_models": 5,
+ "n_stack_levels": 3,
+ "ensemble": {
+  "best_is_weighted_ensemble": true,
+  "best_model_type": "WeightedEnsembleModel",
+  "best_stack_level": null,
+  "weights": {
+   "LightGBMXT_BAG_L1": 0.9583333333333334,
+   "NeuralNetFastAI_BAG_L2": 0.041666666666666664
+  },
+  "base_models": [
+   "LightGBMXT_BAG_L1",
+   "NeuralNetFastAI_BAG_L2"
+  ],
+  "base_model_types": {
+   "LightGBMXT_BAG_L1": "StackerEnsembleModel",
+   "NeuralNetFastAI_BAG_L2": "StackerEnsembleModel"
+  },
+  "bagged_info": {}
+ },
+ "features": {
+  "n_features_out": 256,
+  "by_group": {
+   "text_special": 6,
+   "text_ngram": 250
+  },
+  "out_raw_types": {
+   "int": 256
+  },
+  "out_special_types": {
+   "text_ngram": 250,
+   "text_special": 6,
+   "binned": 6
+  },
+  "feature_metadata_in": {
+   "raw_types": {
+    "object": 1
+   },
+   "text_features": [
+    "text"
+   ]
+  }
+ },
+ "dynamic_stacking": {
+  "dystack_ran": true,
+  "stacked_overfitting_occurred": "False",
+  "n_dystack_subfits": 0,
+  "num_stack_levels_run": 3,
+  "any_stack_level_ge2": true
+ },
+ "ag_version": null
+}

@@ -1,0 +1,23 @@
+[00:38:52] inicio
+[00:46:29] encode exit 0
+[01:12:57] ag main 60 exit 0 50 arquivos
+[02:56:42] ag main 240 exit 0 50 arquivos
+[03:23:02] ag nometa 240 exit 0 12 arquivos
+[05:07:18] ag emb 240 exit 0 50 arquivos
+[08:03:35] ag main 900 exit 0 23 arquivos
+[08:03:38] analysis exit 0
+OVERNIGHT_DONE
+[08:03:51] main 60: 50 arquivos
+[08:03:51] main 240: 50 arquivos
+[08:03:51] refill nometa 240 (tem 12) tentativa 1
+[08:30:07] main 60: 50 arquivos
+[08:30:07] main 240: 50 arquivos
+[08:30:07] refill nometa 240 (tem 26) tentativa 1
+[09:35:03] nometa 240: 50 arquivos
+[09:35:03] emb 240: 50 arquivos
+[09:35:03] refill main 900 (tem 23) tentativa 1
+[11:11:53] refill main 900 (tem 31) tentativa 2
+[12:06:52] final main 900 (tem 35) tentativa 1
+[17:27:09] main 900: 50 arquivos
+[17:27:11] analysis exit 0
+FINAL_DONE

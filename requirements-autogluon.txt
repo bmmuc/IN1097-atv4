@@ -1,0 +1,9 @@
+# ambiente separado para o AutoGluon (env conda "automl", Python 3.11)
+autogluon.tabular[all]==1.6.3
+ray==2.58.1
+lightgbm==4.7.0
+catboost==1.2.10
+xgboost-cpu==3.2.0
+fastai==2.8.7
+torch==2.13.0
+scikit-learn==1.9.1

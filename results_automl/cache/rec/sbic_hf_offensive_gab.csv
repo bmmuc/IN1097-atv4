@@ -1,0 +1,2 @@
+dataset_id,best_avg_algo,ml_algo,ml_predicted_ranking,meta_s
+sbic_hf_offensive_gab,minilm_mlp,minilm_mlp,minilm_mlp;tfidf_word_lr;tfidf_char_svm;minilm_lr;hatebert_lr;tfidf_nb;svd_rf;svd_histgb;mbert_lr;svd_knn,0.16900922799993623

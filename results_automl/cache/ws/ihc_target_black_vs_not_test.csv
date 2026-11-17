@@ -1,0 +1,4 @@
+dataset_id,t,incumbent_config,inner_loss,f1_test,cum_search_s,cum_eval_s,cum_gp_s,refit_s,nn_ids,nn1_dist
+ihc_target_black_vs_not,5,38,0.18119549801685234,0.8065550212789476,41.65276860200002,41.65276860200002,0.0,8.854641337999993,ihc_target_jewish_vs_not;ihc_stg2_white_grievance_vs_rest;ihc_target_muslim_vs_not,4.7284765964802205
+ihc_target_black_vs_not,15,38,0.18119549801685234,0.8065550212789476,210.31669820199994,208.99757343699997,1.3191247649999696,8.995614068000009,ihc_target_jewish_vs_not;ihc_stg2_white_grievance_vs_rest;ihc_target_muslim_vs_not,4.7284765964802205
+ihc_target_black_vs_not,30,27,0.17681642323864963,0.8084179187709966,471.7430379890001,468.57842187300014,3.1646161159999338,9.527772725999966,ihc_target_jewish_vs_not;ihc_stg2_white_grievance_vs_rest;ihc_target_muslim_vs_not,4.7284765964802205

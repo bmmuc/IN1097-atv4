@@ -1,0 +1,4 @@
+dataset_id,t,incumbent_config,inner_loss,f1_test,cum_search_s,cum_eval_s,cum_gp_s,refit_s,nn_ids,nn1_dist
+ihc_stg2_threatening_vs_rest,5,33,0.2363041602904938,0.7079413404607446,53.263226784999915,53.263226784999915,0.0,6.222560577000422,ihc_stg2_irony_vs_rest;ihc_stg2_inferiority_vs_rest;ihc_target_immigrant_vs_not,7.8529943546215515
+ihc_stg2_threatening_vs_rest,15,121,0.23469046942162844,0.7426819936259135,147.11908369399953,144.68782293499953,2.431260758999997,5.7533377689997,ihc_stg2_irony_vs_rest;ihc_stg2_inferiority_vs_rest;ihc_target_immigrant_vs_not,7.8529943546215515
+ihc_stg2_threatening_vs_rest,30,40,0.23366961999257538,0.7102549066951813,309.43422859799966,303.4508518619996,5.983376736000082,0.9059974030001285,ihc_stg2_irony_vs_rest;ihc_stg2_inferiority_vs_rest;ihc_target_immigrant_vs_not,7.8529943546215515

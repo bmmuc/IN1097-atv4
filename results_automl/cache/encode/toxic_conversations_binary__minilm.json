@@ -1,0 +1,1 @@
+{"dataset_id": "toxic_conversations_binary", "encoder": "minilm", "encode_s": 20.197727599000245, "n_threads": 12}

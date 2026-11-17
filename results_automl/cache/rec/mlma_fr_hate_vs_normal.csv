@@ -1,0 +1,2 @@
+dataset_id,best_avg_algo,ml_algo,ml_predicted_ranking,meta_s
+mlma_fr_hate_vs_normal,minilm_mlp,tfidf_char_svm,tfidf_char_svm;tfidf_word_lr;minilm_mlp;minilm_lr;tfidf_nb;hatebert_lr;mbert_lr;svd_histgb;svd_rf;svd_knn,0.10253163899994888

@@ -1,0 +1,2 @@
+dataset_id,best_avg_algo,ml_algo,ml_predicted_ranking,meta_s
+ihc_target_jewish_vs_not,minilm_mlp,tfidf_char_svm,tfidf_char_svm;minilm_mlp;tfidf_word_lr;minilm_lr;hatebert_lr;mbert_lr;tfidf_nb;svd_histgb;svd_rf;svd_knn,0.22091713399993296

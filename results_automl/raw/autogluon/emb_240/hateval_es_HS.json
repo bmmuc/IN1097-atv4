@@ -1,0 +1,167 @@
+{
+ "dataset_id": "hateval_es_HS",
+ "variant": "emb",
+ "budget": 240,
+ "num_cpus": 4,
+ "n_train": 2400,
+ "n_test": 600,
+ "f1_test": 0.7542268237082067,
+ "fit_wall_s": 242.86987546899945,
+ "predict_wall_s": 0.3680682109988993,
+ "total_wall_s": 261.05700620599964,
+ "best_model": "WeightedEnsemble_L2",
+ "leaderboard": [
+  {
+   "model": "LightGBMXT_BAG_L1",
+   "score_val": 0.7531845314228971,
+   "fit_time": 47.24539875984192,
+   "pred_time_val": 0.3684992790222168,
+   "stack_level": 1,
+   "can_infer": true
+  },
+  {
+   "model": "WeightedEnsemble_L3",
+   "score_val": 0.7531845314228971,
+   "fit_time": 47.96486711502075,
+   "pred_time_val": 0.37404489517211914,
+   "stack_level": 3,
+   "can_infer": true
+  },
+  {
+   "model": "WeightedEnsemble_L2",
+   "score_val": 0.7531845314228971,
+   "fit_time": 48.05244255065918,
+   "pred_time_val": 0.37433695793151855,
+   "stack_level": 2,
+   "can_infer": true
+  },
+  {
+   "model": "LightGBM_BAG_L2",
+   "score_val": 0.7489975794083408,
+   "fit_time": 107.57818627357483,
+   "pred_time_val": 5.149419069290161,
+   "stack_level": 2,
+   "can_infer": true
+  },
+  {
+   "model": "LightGBMXT_BAG_L2",
+   "score_val": 0.7445498377880477,
+   "fit_time": 120.08439564704895,
+   "pred_time_val": 5.060009241104126,
+   "stack_level": 2,
+   "can_infer": true
+  },
+  {
+   "model": "LightGBM_BAG_L1",
+   "score_val": 0.7331387656106012,
+   "fit_time": 28.797620058059692,
+   "pred_time_val": 0.19284749031066895,
+   "stack_level": 1,
+   "can_infer": true
+  },
+  {
+   "model": "ExtraTreesEntr_BAG_L1",
+   "score_val": 0.6835452535689697,
+   "fit_time": 2.326758861541748,
+   "pred_time_val": 0.9493608474731445,
+   "stack_level": 1,
+   "can_infer": true
+  },
+  {
+   "model": "ExtraTreesGini_BAG_L1",
+   "score_val": 0.6737895326310143,
+   "fit_time": 2.159822940826416,
+   "pred_time_val": 1.3775858879089355,
+   "stack_level": 1,
+   "can_infer": true
+  },
+  {
+   "model": "RandomForestGini_BAG_L1",
+   "score_val": 0.6560354096502397,
+   "fit_time": 2.355168342590332,
+   "pred_time_val": 1.2023873329162598,
+   "stack_level": 1,
+   "can_infer": true
+  },
+  {
+   "model": "RandomForestEntr_BAG_L1",
+   "score_val": 0.6552127162225339,
+   "fit_time": 2.4565813541412354,
+   "pred_time_val": 0.7028753757476807,
+   "stack_level": 1,
+   "can_infer": true
+  },
+  {
+   "model": "CatBoost_BAG_L1",
+   "score_val": 0.6465140160154823,
+   "fit_time": 11.471471071243286,
+   "pred_time_val": 0.1486678123474121,
+   "stack_level": 1,
+   "can_infer": true
+  }
+ ],
+ "model_types": {
+  "LightGBMXT_BAG_L1": "StackerEnsembleModel",
+  "LightGBM_BAG_L1": "StackerEnsembleModel",
+  "RandomForestGini_BAG_L1": "StackerEnsembleModel",
+  "RandomForestEntr_BAG_L1": "StackerEnsembleModel",
+  "CatBoost_BAG_L1": "StackerEnsembleModel",
+  "ExtraTreesGini_BAG_L1": "StackerEnsembleModel",
+  "ExtraTreesEntr_BAG_L1": "StackerEnsembleModel",
+  "WeightedEnsemble_L2": "WeightedEnsembleModel",
+  "LightGBMXT_BAG_L2": "StackerEnsembleModel",
+  "LightGBM_BAG_L2": "StackerEnsembleModel",
+  "WeightedEnsemble_L3": "WeightedEnsembleModel"
+ },
+ "n_models": 11,
+ "n_stack_levels": 3,
+ "ensemble": {
+  "best_is_weighted_ensemble": true,
+  "best_model_type": "WeightedEnsembleModel",
+  "best_stack_level": null,
+  "weights": {
+   "LightGBMXT_BAG_L1": 1.0
+  },
+  "base_models": [
+   "LightGBMXT_BAG_L1"
+  ],
+  "base_model_types": {
+   "LightGBMXT_BAG_L1": "StackerEnsembleModel"
+  },
+  "bagged_info": {}
+ },
+ "features": {
+  "n_features_out": 633,
+  "by_group": {
+   "embedding_numeric": 382,
+   "text_special": 24,
+   "text_ngram": 227
+  },
+  "out_raw_types": {
+   "float": 381,
+   "int": 252
+  },
+  "out_special_types": {
+   "text_ngram": 227,
+   "text_special": 24,
+   "binned": 24
+  },
+  "feature_metadata_in": {
+   "raw_types": {
+    "object": 1,
+    "float": 382
+   },
+   "text_features": [
+    "text"
+   ]
+  }
+ },
+ "dynamic_stacking": {
+  "dystack_ran": true,
+  "stacked_overfitting_occurred": "False",
+  "n_dystack_subfits": 0,
+  "num_stack_levels_run": 3,
+  "any_stack_level_ge2": true
+ },
+ "ag_version": null
+}

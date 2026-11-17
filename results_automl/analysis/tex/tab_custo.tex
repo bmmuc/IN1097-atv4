@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+\centering
+\caption{Custo online por dataset e perda média.}
+\label{tab:automl-custo}
+\begin{tabular}{lrrr}
+\toprule
+Método & Custo mediano (núcleo-s) & Custo mediano (s relógio) & Perda média \\
+\midrule
+Melhor media & 103.18 & 10.79 & 0.04 \\
+Meta-learning & 112.70 & 20.85 & 0.03 \\
+ML+WS (T=5) & 219.35 & 119.99 & 0.03 \\
+ML+WS (T=15) & 377.19 & 253.04 & 0.04 \\
+ML+WS (T=30) & 594.08 & 476.61 & 0.04 \\
+AG main 60s & 296.54 & 74.14 & 0.11 \\
+AG main 240s & 1117.49 & 279.37 & 0.11 \\
+AG main 900s & 3401.39 & 850.35 & 0.11 \\
+AG nometa 240s & 872.07 & 218.02 & 0.11 \\
+AG+MiniLM 240s & 1209.67 & 281.72 & 0.02 \\
+Oracle & 0.00 & 0.00 & 0.02 \\
+\bottomrule
+\end{tabular}
+\end{table}

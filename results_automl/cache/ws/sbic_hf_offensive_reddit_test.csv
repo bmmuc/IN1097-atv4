@@ -1,0 +1,4 @@
+dataset_id,t,incumbent_config,inner_loss,f1_test,cum_search_s,cum_eval_s,cum_gp_s,refit_s,nn_ids,nn1_dist
+sbic_hf_offensive_reddit,5,126,0.31193892417508123,0.7092340225563909,149.461442069,149.461442069,0.0,7.492519496,sbic_hf_offensive_stormfront;sbic_hf_group_targeted;hatexplain_hate_vs_rest,11.474131754864722
+sbic_hf_offensive_reddit,15,58,0.3074940110489321,0.6858360742783818,251.15415491199997,250.23085865999974,0.9232962520002275,7.722529294999958,sbic_hf_offensive_stormfront;sbic_hf_group_targeted;hatexplain_hate_vs_rest,11.474131754864722
+sbic_hf_offensive_reddit,30,58,0.3074940110489321,0.6858360742783818,364.9551495350004,362.4623147010001,2.4928348340002913,9.674927363999927,sbic_hf_offensive_stormfront;sbic_hf_group_targeted;hatexplain_hate_vs_rest,11.474131754864722

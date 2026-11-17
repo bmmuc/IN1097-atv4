@@ -1,0 +1,4 @@
+dataset_id,t,incumbent_config,inner_loss,f1_test,cum_search_s,cum_eval_s,cum_gp_s,refit_s,nn_ids,nn1_dist
+ihc_stg1_binary,5,27,0.3227824310856438,0.70703125,92.23320012600038,92.23320012600038,0.0,11.695129137000094,ihc_stg1_implicit_vs_not;ihc_stg2_incitement_vs_rest;ihc_stg2_white_grievance_vs_rest,4.2992171065746
+ihc_stg1_binary,15,27,0.3227824310856438,0.70703125,270.4678341090007,269.55280174700033,0.9150323620003746,9.030495068999926,ihc_stg1_implicit_vs_not;ihc_stg2_incitement_vs_rest;ihc_stg2_white_grievance_vs_rest,4.2992171065746
+ihc_stg1_binary,30,126,0.32162665501998733,0.6957286350196767,762.8706376229995,759.9974698539995,2.8731677690000197,5.210197375000007,ihc_stg1_implicit_vs_not;ihc_stg2_incitement_vs_rest;ihc_stg2_white_grievance_vs_rest,4.2992171065746

@@ -1,0 +1,2 @@
+dataset_id,best_avg_algo,ml_algo,ml_predicted_ranking,meta_s
+ethos_category_national_origin_vs_rest,minilm_mlp,minilm_mlp,minilm_mlp;minilm_lr;tfidf_char_svm;hatebert_lr;tfidf_word_lr;mbert_lr;tfidf_nb;svd_rf;svd_knn;svd_histgb,0.12456535199999053
